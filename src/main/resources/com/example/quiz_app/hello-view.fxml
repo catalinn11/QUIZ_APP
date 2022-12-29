@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: linear-gradient(to bottom right, LIGHTSKYBLUE, LIGHTCORAL);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quiz_app.HelloController">
+    <children>
+        <HBox alignment="CENTER" layoutX="300.0" layoutY="28.0" prefHeight="88.0" prefWidth="574.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="20.0">
+            <children>
+                <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="49.0" prefWidth="594.0" text="WELCOME TO CTL QUIZZES!" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="46.0" />
+                    </font>
+                    <effect>
+                        <Lighting diffuseConstant="2.0" specularConstant="0.5" specularExponent="40.0" surfaceScale="10.0">
+                            <bumpInput>
+                                <Shadow />
+                            </bumpInput>
+                     <light>
+                        <Light.Distant />
+                     </light>
+                        </Lighting>
+                    </effect>
+                </Label>
+            </children>
+        </HBox>
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="102.0" layoutY="90.0" prefHeight="49.0" prefWidth="594.0" text="Choose your game" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font name="Berlin Sans FB Demi Bold" size="34.0" />
+            </font>
+            <effect>
+                <Lighting>
+                    <bumpInput>
+                        <Shadow />
+                    </bumpInput>
+                </Lighting>
+            </effect>
+        </Label>
+      <Button fx:id="flagsGame" alignment="CENTER" contentDisplay="CENTER" layoutX="451.0" layoutY="231.0" mnemonicParsing="false" onMouseClicked="#flagsGameHandle" prefHeight="306.0" prefWidth="298.0" styleClass="buttonFlagsGame" stylesheets="@../../../style.css" AnchorPane.bottomAnchor="62.60000000000002" AnchorPane.leftAnchor="451.6" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="231.0" />
+      <Text fill="WHITE" layoutX="462.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FLAG GUESSER">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+         <effect>
+            <DropShadow radius="10.585" width="23.34" />
+         </effect>
+      </Text>
+      <Button fx:id="capitalsGame" alignment="CENTER" contentDisplay="CENTER" layoutX="83.0" layoutY="231.0" mnemonicParsing="false" onMouseClicked="#capitalsGameHandle" prefHeight="306.0" prefWidth="298.0" styleClass="buttonCapitalsGame" stylesheets="@../../../style.css" AnchorPane.bottomAnchor="62.60000000000002" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="451.6" AnchorPane.topAnchor="231.0" />
+      <Text layoutX="41.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CAPITALS QUIZZ">
+         <font>
+            <Font name="System Bold Italic" size="40.0" />
+         </font>
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.14901961386203766" green="0.30980393290519714" blue="0.5803921818733215" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.18431372940540314" green="0.6509804129600525" blue="0.019607843831181526" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill>
+         <effect>
+            <DropShadow height="9.36" radius="2.4099999999999997" spread="0.16" width="2.28" />
+         </effect>
+      </Text>
+    </children>
+</AnchorPane>

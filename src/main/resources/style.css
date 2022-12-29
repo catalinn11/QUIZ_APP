@@ -1,0 +1,147 @@
+.buttonFlagsGame {
+    -fx-background-image: url("flagsGame.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-radius: 120px;
+    -fx-background-color: transparent;
+}
+.buttonFlagsGame:hover {
+    -fx-background-color: white;
+}
+.buttonCapitalsGame {
+    -fx-background-image: url("capitalsQuiz.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-radius: 120px;
+    -fx-background-color: transparent;
+}
+.buttonCapitalsGame:hover {
+    -fx-background-color: linear-gradient(to right, #264f94, #2fa605);
+}
+
+.buttonRestart {
+    -fx-background-color: crimson;
+    -fx-text-fill: white;
+    -fx-background-radius: 25px;
+}
+
+.buttonRestart:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-color: firebrick;
+}
+
+.buttonChangeGame {
+    -fx-text-fill: black;
+    -fx-background-radius: 30px;
+    -fx-background-color: lightskyblue;
+}
+.buttonChangeGame:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-color: skyblue;
+}
+
+.buttonFinish {
+    -fx-background-color: #44b044;
+    -fx-text-fill: white;
+    -fx-background-radius: 25px;
+}
+.buttonFinish:hover {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-color: green;
+}
+
+.buttonChoice {
+    -fx-background-color: white;
+    -fx-background-radius: 25px;
+}
+.buttonChoice:hover {
+    -fx-background-color: #c9c9c9;
+}
+
+.buttonStart {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-color:  linear-gradient(to right, lightgreen, green);
+    -fx-background-radius: 30px;
+}
+.buttonStart:hover {
+    -fx-background-color: linear-gradient(to left, green, yellow);
+}
+
+.buttonHome {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-background-color: lightyellow;
+    -fx-background-radius: 30px;
+}
+.buttonHome:hover {
+    -fx-background-color: #c7c7b0;
+}
+
+.euButton {
+    -fx-background-image: url("mapeu.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+    -fx-background-radius: 20px;
+    -fx-border-color: #003398;
+    -fx-border-radius: 20px;
+    -fx-text-fill: transparent;
+}
+.asiaButton {
+    -fx-background-image: url("mapasia.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+    -fx-background-radius: 20px;
+    -fx-border-color: #003398;
+    -fx-border-radius: 20px;
+    -fx-text-fill: transparent;
+}
+.northaButton {
+    -fx-background-image: url("usamap.png");
+    -fx-background-size: 99% 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+    -fx-background-radius: 20px;
+    -fx-border-color: #003398;
+    -fx-border-radius: 20px;
+    -fx-text-fill: transparent;
+}
+.southaButton {
+    -fx-background-image: url("southamap.png");
+    -fx-background-size: 99% 90%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+    -fx-background-radius: 20px;
+    -fx-border-color: #003398;
+    -fx-border-radius: 20px;
+    -fx-text-fill: transparent;
+}
+.africaButton {
+    -fx-background-image: url("africa.png");
+    -fx-background-size: 100% 100%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+    -fx-background-radius: 20px;
+    -fx-border-color: #003398;
+    -fx-border-radius: 20px;
+    -fx-text-fill: transparent;
+}
+
+.euButton:hover {
+    -fx-background-color: #00000025;
+    -fx-text-fill: white;
+}
+.asiaButton:hover {
+    -fx-background-color: #00000025;
+    -fx-text-fill: white;
+}
+.northaButton:hover {
+    -fx-background-color: #00000025;
+    -fx-text-fill: white;
+}
+.southaButton:hover {
+    -fx-background-color: #00000025;
+    -fx-text-fill: white;
+}
+.africaButton:hover {
+    -fx-background-color: #00000025;
+    -fx-text-fill: white;
+}
